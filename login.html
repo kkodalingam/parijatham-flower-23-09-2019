@@ -22,9 +22,11 @@ body {
   overflow: hidden;
   background-color: #be1f2e;
   height: 55px;
-  width: 1210px;
+  width: 1202px;
   text-transform: uppercase;
-  margin-left:80px;  
+  margin-left:85px;
+  margin-top:380px;
+  font-style: italic;  
 }
 
 .topnav a {
@@ -33,14 +35,14 @@ body {
   text-align: center;
   padding: 20px 16px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   height: 55px;
-  margin-top:-5px;
+  margin-top:0px;
 }
 
 .topnav a:hover {
   background-color: #B01212;;
-  color: white;
+  color: green;
 }
 
 .topnav a.active {
@@ -48,41 +50,27 @@ body {
   color: white;
 }
 
-.dial{
+.logo{
   margin-left:100px;
-  margin-top: -20px;
-  font-style:  italic;
-  font-family: lobster;
-  font-size:20px;
-}
-
-.icon{
-  margin-left:70px;
-  margin-top:-15px;
+  margin-top: -10px;
 }
 
 
-
-.number{
-  margin-left:95px;
-  margin-top:-15px;
-  font-family: lobster;
-  font-size:14px; 
-}
 
 .title{
-  margin-left:650px;
-  margin-top:-60px;
+  margin-left:550px;
+  margin-top:-35px;
   font-size:25px;
   font-family: lobster;
   font-style:  italic;
+  color: pink;
 }
 
 
 
 .login{
   margin-left:1150px;
-  margin-top: -35px;
+  margin-top: -40px;
   color: black;
 }
 
@@ -130,7 +118,7 @@ body {
     padding: 40px 20px;
     margin-top: -45px;
     margin-left: 5px;  
-    font-size: 16px;
+    font-size: 10px;
     font-family:sans-serif ;
     text-transform: uppercase;
    
@@ -156,66 +144,176 @@ body {
 
 <header>
 <div class="head">
- <b><p class="dial">Dial us</p></b>
- <img src="F:\parijatham\images\phone-icon.png" class="icon" width="20" height="20">
- <b><p class="number">+ 9042570314</p></b>
+ <b><p class="logo">Logo</p></b>
+ 
 
- <p class="title">Parijatham Flowers</p>
+ <b><p class="title">Parijatham Flowers</p></b>
 
  <div class="login">
- <a  class="active" href="#" style="text-decoration:none">
+ <a  class="active" href="login.html" style="text-decoration:none">
     <span>Login</span>
     </a>
  </div>
  <div class="contact1">
- <a  class="active" href="#" style="text-decoration:none">
+ <a  class="active" href="contact.html" style="text-decoration:none">
     <span>Contact</span>
     </a>
  </div>
 <div class="cart1">
- <a href="#" style="text-decoration:none"><img src="F:\parijatham\images\cart-icon.png" width="30" height="25">
+ <a href="cart.html" style="text-decoration:none"><img src="F:\parijatham\images\cart-icon.png" width="30" height="25">
  </a>
 </div>
 
 </div>
 <div class="head2">
  <div class="topnav">
-    <a  class="active" href="#" style="text-decoration:none">
+    <a  class="active" href="home.html" style="text-decoration:none">
     <span>Home</span>
     </a>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="#" style="text-decoration:none">
+    <a href="poojaitems.html" style="text-decoration:none;margin-left:10px">
     <span>Pooja Items</span>
     </a>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="#" style="text-decoration:none">
-    <span>Strings</span>
+    <a href="strings.html" style="text-decoration:none;margin-left:10px">
+    <span>Strings / Loose Flowers</span>
     </a>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="#" style="text-decoration:none">
-    <span>Loose Flowers</span>
+    <a href="leafs.html" style="text-decoration:none;margin-left:10px">
+    <span>Leafs</span>
     </a>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="#" style="text-decoration:none">
+    <a href="garlands.html" style="text-decoration:none;margin-left:10px">
     <span>Garlands</span>
     </a>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="#" style="text-decoration:none">
-    <span>Additional Products</span>
+    <a href="festival.html" style="text-decoration:none;margin-left:10px">
+    <span>Festival Packages</span>
     </a>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="#" style="text-decoration:none">
-    <span>Festival Packages</span>
+    <a href="addproducts.html" style="text-decoration:none;margin-top:-18px;">
+    <span>Additional Products</span>
     </a>
     
   
 
-  
+   
+</div>
+
  
 </header>
 
 
-<body style="background:#FDF8F8;">
+<body>
+
+<style>
+.mySlides fade{
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  
+}
+
+.slideshow-container{
+   margin-top:-450px;
+}
+
+.border{
+   padding: 70px;
+   border: 1px solid #D8CBCB;
+   height: 200px;
+   width: 1060px;
+   margin-left: 85px;
+   margin-top: 20px;
+
+}
+
+</style>
+
+<div class="slideshow-container">
+
+<div class="border">
+<div class="mySlides fade">
+  <img src="F:\New Parijatham\images\6.jpg"/  style="width:1180;margin-left:-60px;margin-top:-60px;height:320">
+</div>
+
+<div class="mySlides fade">
+  <img src="F:\New Parijatham\images\parijatham.jpg"/  style="width:1180;margin-left:-60px;margin-top:-60px;height:320">
+</div>
+
+<div class="mySlides fade">
+  <img src="F:\New Parijatham\images\3.jpg"/  style="width:1180;margin-left:-60px;margin-top:-60px;height:320">
+</div>
+
+<div class="mySlides fade">
+  <img src="F:\New Parijatham\images\saraswathi.jpg"/  style="width:1180;margin-left:-60px;margin-top:-60px;height:320">
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+</div>
+</div>
+
+<style>
+
+marquee {
+  -webkit-animation:  caption 50s linear 0s infinite;
+  font-family:'Segoe ui';
+background-color: #;
+-webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .5), 0px 0px 0px rgba(250, 250, 250, .2);
+box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .5), 0px 0px 0px rgba(250, 250, 250, .2);
+-webkit-transition: background-color 350ms;
+-moz-transition: background-color 350ms;
+transition: background-color 350ms;
+  overflow: hidden;
+  overflow-x:-webkit-marquee;
+  -webkit-marquee-direction: right;
+  -webkit-marquee-style: scroll;
+  -webkit-marquee-speed: normal;
+  -webkit-marquee-increment: small;
+  -webkit-marquee-repetition: 5;
+  overflow-x: marquee-line;
+  marquee-direction: forward;
+  marquee-style: loop;
+  marquee-speed: slow;
+  marquee-play-count: 5;
+  background:Lavender;
+  margin-left:85px;   
+  height: 30px;
+  width: 1202px;
+  color: maroon;
+  font-style: italic;
+}
+</style>
+<div>
+  <marquee direction="left" speed="normal" behavior="loop" >
+    Online Shopping Traditional Indian Pooja Items
+  </marquee>
+</div>  
+
+ <style>
+.home{
+  margin-left:85px;
+  margin-top: 100px;
+}
+</style>
+
+
 
 <style>
 .section {
@@ -225,7 +323,7 @@ body {
 .section-title.lines {
     position: relative;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 75px;
     margin-bottom: 40px;
     margin-left:80px;
 }
@@ -370,11 +468,11 @@ p.solid {
   <form action="login.php" method="POST">
     <div class="email">
     <b><label for="email" style="color: maroon;"> Email :</label></b>
-    <input type="text" class="email" name="username" placeholder="Your email.." required="" style="margin-left:30px">
+    <input type="text" class="email" name="username" placeholder=" email" required="" style="margin-left:30px">
     </div>
     <div class="pass">
     <b><label for="pass" style="color: maroon;">Password :</label></b>
-    <input type="password" class="pass" name="password" placeholder="Your password.." required="" style="margin-left:28px">
+    <input type="password" class="pass" name="password" placeholder=" password" required="" style="margin-left:28px">
     </div>
     
    
@@ -398,6 +496,8 @@ p.solid {
 
 
 
+
+
 </body>
 
 <footer>
@@ -407,7 +507,7 @@ p.solid {
  overflow: hidden;
   padding: 40px 20px;
   background:  #605E62;
-  margin-top: 200px;
+  margin-top: 100px;
   height:120px;
 }
 
@@ -461,9 +561,9 @@ p.solid {
 
 <div class="payments">
   <center><img src="F:\parijatham\images\payment1.png" width="50" height="50">
-  <img src="F:\parijatham\images\payment2.png" width="50" height="50">
-  <img src="F:\parijatham\images\payment3.png" width="50" height="50">
-  <img src="F:\parijatham\images\payment4.png" width="50" height="50"></center>
+  <img src="F:\New Parijatham\images\payment2.png" width="50" height="50">
+  <img src="F:\New Parijatham\images\payment3.png" width="50" height="50">
+  <img src="F:\New Parijatham\images\payment4.png" width="50" height="50"></center>
 </div>
     
  </div>
