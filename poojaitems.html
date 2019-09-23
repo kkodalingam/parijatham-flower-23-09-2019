@@ -22,9 +22,11 @@ body {
   overflow: hidden;
   background-color: #be1f2e;
   height: 55px;
-  width: 1210px;
+  width: 1202px;
   text-transform: uppercase;
-  margin-left:80px;  
+  margin-left:85px;
+  margin-top:380px;
+  font-style: italic;  
 }
 
 .topnav a {
@@ -33,56 +35,42 @@ body {
   text-align: center;
   padding: 20px 16px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   height: 55px;
-  margin-top:-5px;
+  margin-top:0px;
 }
 
 .topnav a:hover {
   background-color: #B01212;;
-  color: white;
+  color: green;
 }
 
 .topnav a.active {
-  background-color: ;
+  background-color: #B01212;
   color: white;
 }
 
-.dial{
+.logo{
   margin-left:100px;
-  margin-top: -20px;
-  font-style:  italic;
-  font-family: lobster;
-  font-size:20px;
-}
-
-.icon{
-  margin-left:70px;
-  margin-top:-15px;
+  margin-top: -10px;
 }
 
 
-
-.number{
-  margin-left:95px;
-  margin-top:-15px;
-  font-family: lobster;
-  font-size:14px; 
-}
 
 .title{
-  margin-left:650px;
-  margin-top:-60px;
+  margin-left:550px;
+  margin-top:-35px;
   font-size:25px;
   font-family: lobster;
   font-style:  italic;
+  color: pink;
 }
 
 
 
 .login{
   margin-left:1150px;
-  margin-top: -35px;
+  margin-top: -40px;
   color: black;
 }
 
@@ -189,7 +177,7 @@ form:hover .fa{
     padding: 40px 20px;
     margin-top: -45px;
     margin-left: 5px;  
-    font-size: 16px;
+    font-size: 10px;
     font-family:sans-serif ;
     text-transform: uppercase;
    
@@ -215,56 +203,55 @@ form:hover .fa{
 
 <header>
 <div class="head">
- <b><p class="dial">Dial us</p></b>
- <img src="F:\parijatham\images\phone-icon.png" class="icon" width="20" height="20">
- <b><p class="number">+ 9042570314</p></b>
+ <b><p class="logo">Logo</p></b>
+ 
 
- <p class="title">Parijatham Flowers</p>
+ <b><p class="title">Parijatham Flowers</p></b>
 
  <div class="login">
- <a  class="active" href="#" style="text-decoration:none">
+ <a  class="active" href="login.html" style="text-decoration:none">
     <span>Login</span>
     </a>
  </div>
  <div class="contact">
- <a  class="active" href="#" style="text-decoration:none">
+ <a  class="active" href="contact.html" style="text-decoration:none">
     <span>Contact</span>
     </a>
  </div>
 <div class="cart">
- <a href="#" style="text-decoration:none"><img src="F:\parijatham\images\cart-icon.png" width="30" height="25">
+ <a href="cart.html" style="text-decoration:none"><img src="F:\parijatham\images\cart-icon.png" width="30" height="25">
  </a>
 </div>
 
 </div>
 <div class="head2">
  <div class="topnav">
-    <a  class="active" href="#" style="text-decoration:none">
+    <a  class="active" href="home.html" style="text-decoration:none">
     <span>Home</span>
     </a>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="#" style="text-decoration:none">
+    <a href="poojaitems.html" style="text-decoration:none;margin-left:10px">
     <span>Pooja Items</span>
     </a>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="#" style="text-decoration:none">
-    <span>Strings</span>
+    <a href="strings.html" style="text-decoration:none;margin-left:10px">
+    <span>Strings / Loose Flowers</span>
     </a>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="#" style="text-decoration:none">
-    <span>Loose Flowers</span>
+    <a href="leafs.html" style="text-decoration:none;margin-left:10px">
+    <span>Leafs</span>
     </a>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="#" style="text-decoration:none">
+    <a href="garlands.html" style="text-decoration:none;margin-left:10px">
     <span>Garlands</span>
     </a>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="#" style="text-decoration:none">
-    <span>Additional Products</span>
+    <a href="festival.html" style="text-decoration:none;margin-left:10px">
+    <span>Festival Packages</span>
     </a>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="#" style="text-decoration:none">
-    <span>Festival Packages</span>
+    <a href="addproducts.html" style="text-decoration:none;margin-top:-18px;">
+    <span>Additional Products</span>
     </a>
     
   
@@ -281,13 +268,112 @@ form:hover .fa{
 </header>
 
 
-<body >
+<body>
 
+<style>
+.mySlides fade{
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  
+}
+
+.slideshow-container{
+   margin-top:-450px;
+}
+
+.border{
+   padding: 70px;
+   border: 1px solid #D8CBCB;
+   height: 200px;
+   width: 1060px;
+   margin-left: 85px;
+   margin-top: 20px;
+
+}
+
+</style>
+
+<div class="slideshow-container">
+
+<div class="border">
+<div class="mySlides fade">
+  <img src="F:\New Parijatham\images\6.jpg"/  style="width:1180;margin-left:-60px;margin-top:-60px;height:320">
+</div>
+
+<div class="mySlides fade">
+  <img src="F:\New Parijatham\images\parijatham.jpg"/  style="width:1180;margin-left:-60px;margin-top:-60px;height:320">
+</div>
+
+<div class="mySlides fade">
+  <img src="F:\New Parijatham\images\3.jpg"/  style="width:1180;margin-left:-60px;margin-top:-60px;height:320">
+</div>
+
+<div class="mySlides fade">
+  <img src="F:\New Parijatham\images\saraswathi.jpg"/  style="width:1180;margin-left:-60px;margin-top:-60px;height:320">
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+</div>
+</div>
+
+<style>
+
+marquee {
+  -webkit-animation:  caption 50s linear 0s infinite;
+  font-family:'Segoe ui';
+background-color: #;
+-webkit-box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .5), 0px 0px 0px rgba(250, 250, 250, .2);
+box-shadow: inset 0px 0px 0px rgba(0, 0, 0, .5), 0px 0px 0px rgba(250, 250, 250, .2);
+-webkit-transition: background-color 350ms;
+-moz-transition: background-color 350ms;
+transition: background-color 350ms;
+  overflow: hidden;
+  overflow-x:-webkit-marquee;
+  -webkit-marquee-direction: right;
+  -webkit-marquee-style: scroll;
+  -webkit-marquee-speed: normal;
+  -webkit-marquee-increment: small;
+  -webkit-marquee-repetition: 5;
+  overflow-x: marquee-line;
+  marquee-direction: forward;
+  marquee-style: loop;
+  marquee-speed: slow;
+  marquee-play-count: 5;
+  background:Lavender;
+  margin-left:85px;   
+  height: 30px;
+  width: 1202px;
+  color: maroon;
+  font-style: italic;
+}
+</style>
+<div>
+  <marquee direction="left" speed="normal" behavior="loop" >
+    Online Shopping Traditional Indian Pooja Items
+  </marquee>
+</div>  
 
  <style>
 .home{
-  margin-left:80px;
-  margin-top: 50px;
+  margin-left:85px;
+  margin-top: 100px;
 }
 </style>
 
@@ -295,10 +381,9 @@ form:hover .fa{
  <a href="home.html" style="text-decoration:none">Home</a>
  <span>/ Pooja Items</span>
 </div>
-<hr style="border-top: 1px dashed black;width:89%;margin-left:80px;">
+<hr style="border-top: 1px dashed black;width:89%;margin-left:85px;">
 
 <center><b><p>POOJA ITEMS</p></b></center>
-
 
 
 <div class="card">
@@ -341,8 +426,8 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaproducts5.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
+ <img src="F:\New Parijatham\images\poojaitems1.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
  <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Astalakshmi Vilakku</p>
  <p ><button id="poojaitem1">Add to Cart</button></p>
  </a>
@@ -390,8 +475,8 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaproducts19.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
+ <img src="F:\New Parijatham\images\poojaitems2.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
  <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Kamatchi Vilakku</p>
  <p ><button id="poojaitems2">Add to Cart</button></p>
  </a>
@@ -439,8 +524,8 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaitems3.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
+ <img src="F:\New Parijatham\images\poojaitems3.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
  <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">KumKum </p>
  <p ><button id="poojaitems3">Add to Cart</button></p>
  </a>
@@ -488,8 +573,8 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaitems4.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
+ <img src="F:\New Parijatham\images\poojaitems4.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
  <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Termeric Powder</p>
  <p ><button id="poojaitems4">Add to Cart</button></p>
  </a>
@@ -537,9 +622,9 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaproducts2.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Arasan Sticks</p>
+ <img src="F:\New Parijatham\images\poojaitems5.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
+ <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">God Gollu Dall</p>
  <p ><button id="poojaitem5">Add to Cart</button></p>
  </a>
 
@@ -586,9 +671,9 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaproducts12.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Betal Nut</p>
+ <img src="F:\New Parijatham\images\poojaitems6.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
+ <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Panja Pathiram</p>
  <p ><button id="poojaitems6">Add to Cart</button></p>
  </a>
 
@@ -635,9 +720,9 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaproducts14.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Betal Nut - Whole</p>
+ <img src="F:\New Parijatham\images\poojaitems7.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
+ <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Brass Thambalam Plate</p>
  <p ><button id="poojaitems7">Add to Cart</button></p>
  </a>
 
@@ -684,9 +769,9 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaproducts13.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Betal Nut - Sliced</p>
+ <img src="F:\New Parijatham\images\poojaitems8.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
+ <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Brass Plate</p>
  <p ><button id="poojaitems8">Add to Cart</button></p>
  </a>
 
@@ -733,9 +818,9 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaproducts25.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Mango Sticks</p>
+ <img src="F:\New Parijatham\images\poojaitems9.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
+ <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Pathi Stand</p>
  <p ><button id="poojaitem9">Add to Cart</button></p>
  </a>
 
@@ -782,9 +867,9 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaproducts9.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Banana Leaves</p>
+ <img src="F:\New Parijatham\images\poojaitems10.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
+ <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Bell</p>
  <p ><button id="poojaitems10">Add to Cart</button></p>
  </a>
 
@@ -831,9 +916,9 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaproducts21.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Betal Leaves</p>
+ <img src="F:\New Parijatham\images\poojaitems11.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
+ <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Sudam Plate</p>
  <p ><button id="poojaitems11">Add to Cart</button></p>
  </a>
 
@@ -880,9 +965,9 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaproducts24.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Mango Leaves</p>
+ <img src="F:\New Parijatham\images\poojaitems12.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
+ <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Kreala Villaku</p>
  <p ><button id="poojaitems12">Add to Cart</button></p>
  </a>
 
@@ -929,9 +1014,9 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaproducts20.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Kerala Vilakku</p>
+ <img src="F:\New Parijatham\images\poojaitems13.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
+ <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Arasan Sticks</p>
  <p ><button id="poojaitem13">Add to Cart</button></p>
  </a>
 
@@ -978,9 +1063,9 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaproducts15.jpg" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Coconut Flower</p>
+ <img src="F:\New Parijatham\images\poojaitems14.jpg" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
+ <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Mango Sticks</p>
  <p ><button id="poojaitems14">Add to Cart</button></p>
  </a>
 
@@ -1027,9 +1112,9 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaitems1.png" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Arugampull Bunch </p>
+ <img src="F:\New Parijatham\images\poojaitems15.png" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
+ <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Navagraha Sticks </p>
  <p ><button id="poojaitems15">Add to Cart</button></p>
  </a>
 
@@ -1076,8 +1161,8 @@ form:hover .fa{
 
 
  <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaitems5.png" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
+ <img src="F:\New Parijatham\images\poojaitems16.png" width="200" height="200" style="margin-left:0px;">
+ <p class="price">$_ _</p>
  <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Nava Thaya</p>
  <p ><button id="poojaitems16">Add to Cart</button></p>
  </a>
@@ -1085,201 +1170,27 @@ form:hover .fa{
 
 </div>
 
-<div class="card16">
-
 <style>
-.card16 {
-  box-shadow: 5px 10px 12px 5px rgba(0, 0, 0, 0.2);
-  max-width: 220px;
-  margin-left: 130px;
-  margin-top: 90px;
-  text-align: center;
-  font-family: arial;
- 
+.next{
+  margin-left:1180px;
+  margin-top: 40px;
+  color: black;
 }
 
-.price {
-  color: grey;
-  font-size: 16px;
+.next a{
+   color: black;
 }
 
-.card16 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #be1f2e;
-  text-align: center;
-  cursor: pointer;
-  width: 60%;
-  height: 7%;
-  font-size: 18px;
+.next a:hover{
+  color:red;
 }
-
-.card16 button:hover {
-  opacity: 0.7;
-}
-
 
 </style>
-
-
- <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaitems6.png" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Pooja Coconuts</p>
- <p ><button id="poojaitem17">Add to Cart</button></p>
- </a>
-
-
-</div>
-
-<div class="card17">
-
-<style>
-.card17 {
-  box-shadow: 5px 10px 12px 5px rgba(0, 0, 0, 0.2);
-  max-width: 220px;
-  margin-left: 430px;
-  margin-top: -350px;
-  text-align: center;
-  font-family: arial;
- 
-}
-
-.price {
-  color: grey;
-  font-size: 16px;
-}
-
-.card17 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #be1f2e;
-  text-align: center;
-  cursor: pointer;
-  width: 60%;
-  height: 7%;
-  font-size: 18px;
-}
-
-.card17 button:hover {
-  opacity: 0.7;
-}
-
-
-</style>
-
-
- <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaitems7.png" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Neem Leaf - fresh</p>
- <p ><button id="poojaitems18">Add to Cart</button></p>
- </a>
-
-
-</div>
-
-<div class="card18">
-
-<style>
-.card18 {
-  box-shadow: 5px 10px 12px 5px rgba(0, 0, 0, 0.2);
-  max-width: 220px;
-  margin-left: 730px;
-  margin-top: -353px;
-  text-align: center;
-  font-family: arial;
- 
-}
-
-.price {
-  color: grey;
-  font-size: 16px;
-}
-
-.card18 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #be1f2e;
-  text-align: center;
-  cursor: pointer;
-  width: 60%;
-  height: 7%;
-  font-size: 18px;
-}
-
-.card18 button:hover {
-  opacity: 0.7;
-}
-
-
-</style>
-
-
- <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaitems8.png" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Navagraha Sticks </p>
- <p ><button id="poojaitems19">Add to Cart</button></p>
- </a>
-
-
-</div>
-
-<div class="card19">
-
-<style>
-.card19 {
-  box-shadow: 5px 10px 12px 5px rgba(0, 0, 0, 0.2);
-  max-width: 220px;
-  margin-left: 1030px;
-  margin-top: -353px;
-  text-align: center;
-  font-family: arial;
- 
-}
-
-.price {
-  color: grey;
-  font-size: 16px;
-}
-
-.card19 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #be1f2e;
-  text-align: center;
-  cursor: pointer;
-  width: 60%;
-  height: 7%;
-  font-size: 18px;
-}
-
-.card19 button:hover {
-  opacity: 0.7;
-}
-
-
-</style>
-
-
- <a href="#" style="text-decoration:none">
- <img src="F:\parijatham\images\images\poojaitems9.png" width="200" height="200" style="margin-left:0px;">
- <p class="price">$19.99</p>
- <p style="color:red;font-family: SatisfyRegular;font-style:italic;font-size:18px;">Sandal Powder</p>
- <p ><button id="poojaitems20">Add to Cart</button></p>
- </a>
-
-
-</div>
+<div class="next">
+ <a  class="active" href="poojaitems2.html" style="text-decoration:none">
+    <span>Next Page...</span>
+    </a>
+ </div>
 
 </body>
 
@@ -1344,9 +1255,9 @@ form:hover .fa{
 
 <div class="payments">
   <center><img src="F:\parijatham\images\payment1.png" width="50" height="50">
-  <img src="F:\parijatham\images\payment2.png" width="50" height="50">
-  <img src="F:\parijatham\images\payment3.png" width="50" height="50">
-  <img src="F:\parijatham\images\payment4.png" width="50" height="50"></center>
+  <img src="F:\New Parijatham\images\payment2.png" width="50" height="50">
+  <img src="F:\New Parijatham\images\payment3.png" width="50" height="50">
+  <img src="F:\New Parijatham\images\payment4.png" width="50" height="50"></center>
 </div>
     
  </div>
